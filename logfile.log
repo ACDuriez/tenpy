@@ -1,0 +1,670 @@
+testing logger
+TEBDEngine: subconfig 'trunc_params'=Config(<2 options>, 'trunc_params')
+TEBDEngine: reading 'dt'=0.1
+TEBDEngine: reading 'N_steps'=1
+TEBDEngine: reading 'order'=4
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+trunc_params: reading 'chi_max'=100
+trunc_params: reading 'svd_min'=1e-12
+--> time=0.100, max(chi)=8, max(S)=0.01191, avg DeltaS=1.1905e-02, since last update: 0.1s
+--> time=0.200, max(chi)=10, max(S)=0.03879, avg DeltaS=2.6873e-02, since last update: 0.0s
+--> time=0.300, max(chi)=10, max(S)=0.07571, avg DeltaS=3.6868e-02, since last update: 0.0s
+--> time=0.400, max(chi)=15, max(S)=0.12004, avg DeltaS=4.4211e-02, since last update: 0.0s
+--> time=0.500, max(chi)=18, max(S)=0.16990, avg DeltaS=4.9653e-02, since last update: 0.0s
+--> time=0.600, max(chi)=20, max(S)=0.22377, avg DeltaS=5.3548e-02, since last update: 0.0s
+--> time=0.700, max(chi)=20, max(S)=0.28028, avg DeltaS=5.6075e-02, since last update: 0.0s
+--> time=0.800, max(chi)=20, max(S)=0.33819, avg DeltaS=5.7328e-02, since last update: 0.0s
+--> time=0.900, max(chi)=23, max(S)=0.39626, avg DeltaS=5.7357e-02, since last update: 0.0s
+--> time=1.000, max(chi)=24, max(S)=0.45330, avg DeltaS=5.6197e-02, since last update: 0.0s
+--> time=1.100, max(chi)=28, max(S)=0.50816, avg DeltaS=5.3886e-02, since last update: 0.0s
+--> time=1.200, max(chi)=28, max(S)=0.55973, avg DeltaS=5.0477e-02, since last update: 0.0s
+--> time=1.300, max(chi)=29, max(S)=0.60699, avg DeltaS=4.6050e-02, since last update: 0.0s
+--> time=1.400, max(chi)=30, max(S)=0.64904, avg DeltaS=4.0711e-02, since last update: 0.0s
+--> time=1.500, max(chi)=30, max(S)=0.68512, avg DeltaS=3.4599e-02, since last update: 0.0s
+--> time=1.600, max(chi)=32, max(S)=0.71465, avg DeltaS=2.7877e-02, since last update: 0.0s
+--> time=1.700, max(chi)=32, max(S)=0.73722, avg DeltaS=2.0734e-02, since last update: 0.0s
+--> time=1.800, max(chi)=32, max(S)=0.75266, avg DeltaS=1.3371e-02, since last update: 0.0s
+--> time=1.900, max(chi)=32, max(S)=0.76100, avg DeltaS=5.9982e-03, since last update: 0.0s
+--> time=2.000, max(chi)=32, max(S)=0.76247, avg DeltaS=-1.1745e-03, since last update: 0.0s
+--> time=2.100, max(chi)=32, max(S)=0.75750, avg DeltaS=-7.9441e-03, since last update: 0.0s
+--> time=2.200, max(chi)=32, max(S)=0.74668, avg DeltaS=-1.4120e-02, since last update: 0.0s
+--> time=2.300, max(chi)=32, max(S)=0.73076, avg DeltaS=-1.9529e-02, since last update: 0.0s
+--> time=2.400, max(chi)=32, max(S)=0.71060, avg DeltaS=-2.4015e-02, since last update: 0.0s
+--> time=2.500, max(chi)=32, max(S)=0.68717, avg DeltaS=-2.7445e-02, since last update: 0.0s
+--> time=2.600, max(chi)=32, max(S)=0.66282, avg DeltaS=-2.9705e-02, since last update: 0.0s
+--> time=2.700, max(chi)=32, max(S)=0.64002, avg DeltaS=-3.0700e-02, since last update: 0.0s
+--> time=2.800, max(chi)=32, max(S)=0.61793, avg DeltaS=-3.0362e-02, since last update: 0.0s
+--> time=2.900, max(chi)=32, max(S)=0.59756, avg DeltaS=-2.8652e-02, since last update: 0.0s
+--> time=3.000, max(chi)=32, max(S)=0.57987, avg DeltaS=-2.5577e-02, since last update: 0.0s
+--> time=3.100, max(chi)=32, max(S)=0.56568, avg DeltaS=-2.1218e-02, since last update: 0.0s
+--> time=3.200, max(chi)=32, max(S)=0.55569, avg DeltaS=-1.5756e-02, since last update: 0.0s
+--> time=3.300, max(chi)=32, max(S)=0.55040, avg DeltaS=-9.4850e-03, since last update: 0.0s
+--> time=3.400, max(chi)=32, max(S)=0.55015, avg DeltaS=-2.7826e-03, since last update: 0.0s
+--> time=3.500, max(chi)=32, max(S)=0.55504, avg DeltaS=3.9579e-03, since last update: 0.0s
+--> time=3.600, max(chi)=32, max(S)=0.56501, avg DeltaS=1.0398e-02, since last update: 0.0s
+--> time=3.700, max(chi)=32, max(S)=0.57978, avg DeltaS=1.6281e-02, since last update: 0.0s
+--> time=3.800, max(chi)=32, max(S)=0.59893, avg DeltaS=2.1432e-02, since last update: 0.0s
+--> time=3.900, max(chi)=32, max(S)=0.62186, avg DeltaS=2.5736e-02, since last update: 0.0s
+--> time=4.000, max(chi)=32, max(S)=0.64790, avg DeltaS=2.9128e-02, since last update: 0.0s
+--> time=4.100, max(chi)=32, max(S)=0.67625, avg DeltaS=3.1581e-02, since last update: 0.0s
+--> time=4.200, max(chi)=32, max(S)=0.70607, avg DeltaS=3.3099e-02, since last update: 0.0s
+--> time=4.300, max(chi)=32, max(S)=0.73649, avg DeltaS=3.3714e-02, since last update: 0.0s
+--> time=4.400, max(chi)=32, max(S)=0.76661, avg DeltaS=3.3481e-02, since last update: 0.0s
+--> time=4.500, max(chi)=32, max(S)=0.79557, avg DeltaS=3.2469e-02, since last update: 0.0s
+--> time=4.600, max(chi)=32, max(S)=0.82256, avg DeltaS=3.0765e-02, since last update: 0.0s
+--> time=4.700, max(chi)=32, max(S)=0.84685, avg DeltaS=2.8460e-02, since last update: 0.0s
+--> time=4.800, max(chi)=32, max(S)=0.86783, avg DeltaS=2.5656e-02, since last update: 0.0s
+--> time=4.900, max(chi)=32, max(S)=0.88534, avg DeltaS=2.2455e-02, since last update: 0.0s
+--> time=5.000, max(chi)=32, max(S)=0.92196, avg DeltaS=1.8966e-02, since last update: 0.0s
+--> time=5.100, max(chi)=32, max(S)=0.95506, avg DeltaS=1.5299e-02, since last update: 0.0s
+--> time=5.200, max(chi)=32, max(S)=0.98416, avg DeltaS=1.1569e-02, since last update: 0.0s
+--> time=5.300, max(chi)=32, max(S)=1.00892, avg DeltaS=7.8906e-03, since last update: 0.0s
+--> time=5.400, max(chi)=32, max(S)=1.02911, avg DeltaS=4.3742e-03, since last update: 0.0s
+--> time=5.500, max(chi)=32, max(S)=1.04464, avg DeltaS=1.1269e-03, since last update: 0.0s
+--> time=5.600, max(chi)=32, max(S)=1.06205, avg DeltaS=-1.7531e-03, since last update: 0.0s
+--> time=5.700, max(chi)=32, max(S)=1.07720, avg DeltaS=-4.1787e-03, since last update: 0.0s
+--> time=5.800, max(chi)=32, max(S)=1.08918, avg DeltaS=-6.0783e-03, since last update: 0.0s
+--> time=5.900, max(chi)=32, max(S)=1.09821, avg DeltaS=-7.3995e-03, since last update: 0.0s
+--> time=6.000, max(chi)=32, max(S)=1.10456, avg DeltaS=-8.1144e-03, since last update: 0.0s
+--> time=6.100, max(chi)=32, max(S)=1.10856, avg DeltaS=-8.2240e-03, since last update: 0.0s
+--> time=6.200, max(chi)=32, max(S)=1.11353, avg DeltaS=-7.7612e-03, since last update: 0.0s
+--> time=6.300, max(chi)=32, max(S)=1.11832, avg DeltaS=-6.7905e-03, since last update: 0.0s
+--> time=6.400, max(chi)=32, max(S)=1.12228, avg DeltaS=-5.4002e-03, since last update: 0.0s
+--> time=6.500, max(chi)=32, max(S)=1.12571, avg DeltaS=-3.6914e-03, since last update: 0.0s
+--> time=6.600, max(chi)=32, max(S)=1.12885, avg DeltaS=-1.7641e-03, since last update: 0.0s
+--> time=6.700, max(chi)=32, max(S)=1.13191, avg DeltaS=2.9235e-04, since last update: 0.0s
+--> time=6.800, max(chi)=32, max(S)=1.13509, avg DeltaS=2.4033e-03, since last update: 0.0s
+--> time=6.900, max(chi)=32, max(S)=1.13850, avg DeltaS=4.5076e-03, since last update: 0.0s
+--> time=7.000, max(chi)=32, max(S)=1.14224, avg DeltaS=6.5541e-03, since last update: 0.0s
+--> time=7.100, max(chi)=32, max(S)=1.14639, avg DeltaS=8.4986e-03, since last update: 0.0s
+--> time=7.200, max(chi)=32, max(S)=1.15097, avg DeltaS=1.0302e-02, since last update: 0.0s
+--> time=7.300, max(chi)=32, max(S)=1.15601, avg DeltaS=1.1931e-02, since last update: 0.0s
+--> time=7.400, max(chi)=32, max(S)=1.16153, avg DeltaS=1.3357e-02, since last update: 0.0s
+--> time=7.500, max(chi)=32, max(S)=1.16751, avg DeltaS=1.4558e-02, since last update: 0.0s
+--> time=7.600, max(chi)=32, max(S)=1.17397, avg DeltaS=1.5519e-02, since last update: 0.0s
+--> time=7.700, max(chi)=32, max(S)=1.18093, avg DeltaS=1.6232e-02, since last update: 0.0s
+--> time=7.800, max(chi)=32, max(S)=1.18840, avg DeltaS=1.6694e-02, since last update: 0.0s
+--> time=7.900, max(chi)=32, max(S)=1.19642, avg DeltaS=1.6910e-02, since last update: 0.0s
+--> time=8.000, max(chi)=32, max(S)=1.20505, avg DeltaS=1.6889e-02, since last update: 0.0s
+--> time=8.100, max(chi)=32, max(S)=1.21437, avg DeltaS=1.6648e-02, since last update: 0.0s
+--> time=8.200, max(chi)=32, max(S)=1.22447, avg DeltaS=1.6207e-02, since last update: 0.0s
+--> time=8.300, max(chi)=32, max(S)=1.23547, avg DeltaS=1.5595e-02, since last update: 0.0s
+--> time=8.400, max(chi)=32, max(S)=1.24750, avg DeltaS=1.4843e-02, since last update: 0.0s
+--> time=8.500, max(chi)=32, max(S)=1.26072, avg DeltaS=1.3989e-02, since last update: 0.0s
+--> time=8.600, max(chi)=32, max(S)=1.27545, avg DeltaS=1.3069e-02, since last update: 0.0s
+--> time=8.700, max(chi)=32, max(S)=1.29537, avg DeltaS=1.2120e-02, since last update: 0.0s
+--> time=8.800, max(chi)=32, max(S)=1.31540, avg DeltaS=1.1174e-02, since last update: 0.0s
+--> time=8.900, max(chi)=32, max(S)=1.33533, avg DeltaS=1.0256e-02, since last update: 0.0s
+--> time=9.000, max(chi)=32, max(S)=1.35496, avg DeltaS=9.3920e-03, since last update: 0.0s
+--> time=9.100, max(chi)=32, max(S)=1.37410, avg DeltaS=8.6003e-03, since last update: 0.0s
+--> time=9.200, max(chi)=32, max(S)=1.39257, avg DeltaS=7.8973e-03, since last update: 0.0s
+--> time=9.300, max(chi)=32, max(S)=1.41159, avg DeltaS=7.2945e-03, since last update: 0.0s
+--> time=9.400, max(chi)=32, max(S)=1.43355, avg DeltaS=6.7976e-03, since last update: 0.0s
+--> time=9.500, max(chi)=32, max(S)=1.45519, avg DeltaS=6.4063e-03, since last update: 0.0s
+--> time=9.600, max(chi)=32, max(S)=1.47619, avg DeltaS=6.1136e-03, since last update: 0.0s
+--> time=9.700, max(chi)=32, max(S)=1.49626, avg DeltaS=5.9065e-03, since last update: 0.0s
+--> time=9.800, max(chi)=32, max(S)=1.51512, avg DeltaS=5.7669e-03, since last update: 0.0s
+--> time=9.900, max(chi)=32, max(S)=1.53256, avg DeltaS=5.6730e-03, since last update: 0.0s
+--> time=10.000, max(chi)=32, max(S)=1.54838, avg DeltaS=5.6013e-03, since last update: 0.0s
+--> time=10.100, max(chi)=32, max(S)=1.56246, avg DeltaS=5.5282e-03, since last update: 0.0s
+--> time=10.200, max(chi)=32, max(S)=1.57469, avg DeltaS=5.4316e-03, since last update: 0.0s
+--> time=10.300, max(chi)=32, max(S)=1.58503, avg DeltaS=5.2926e-03, since last update: 0.0s
+--> time=10.400, max(chi)=32, max(S)=1.59348, avg DeltaS=5.0963e-03, since last update: 0.0s
+--> time=10.500, max(chi)=32, max(S)=1.60009, avg DeltaS=4.8323e-03, since last update: 0.0s
+--> time=10.600, max(chi)=32, max(S)=1.60495, avg DeltaS=4.4953e-03, since last update: 0.0s
+--> time=10.700, max(chi)=32, max(S)=1.60820, avg DeltaS=4.0848e-03, since last update: 0.0s
+--> time=10.800, max(chi)=32, max(S)=1.61001, avg DeltaS=3.6056e-03, since last update: 0.0s
+--> time=10.900, max(chi)=32, max(S)=1.61061, avg DeltaS=3.0668e-03, since last update: 0.0s
+--> time=11.000, max(chi)=32, max(S)=1.61023, avg DeltaS=2.4822e-03, since last update: 0.0s
+--> time=11.100, max(chi)=32, max(S)=1.60914, avg DeltaS=1.8692e-03, since last update: 0.0s
+--> time=11.200, max(chi)=32, max(S)=1.60765, avg DeltaS=1.2487e-03, since last update: 0.0s
+--> time=11.300, max(chi)=32, max(S)=1.60606, avg DeltaS=6.4368e-04, since last update: 0.0s
+--> time=11.400, max(chi)=32, max(S)=1.60469, avg DeltaS=7.9121e-05, since last update: 0.0s
+--> time=11.500, max(chi)=32, max(S)=1.60384, avg DeltaS=-4.1968e-04, since last update: 0.0s
+--> time=11.600, max(chi)=32, max(S)=1.60384, avg DeltaS=-8.2802e-04, since last update: 0.0s
+--> time=11.700, max(chi)=32, max(S)=1.60495, avg DeltaS=-1.1232e-03, since last update: 0.0s
+--> time=11.800, max(chi)=32, max(S)=1.60742, avg DeltaS=-1.2857e-03, since last update: 0.0s
+--> time=11.900, max(chi)=32, max(S)=1.61146, avg DeltaS=-1.3010e-03, since last update: 0.0s
+--> time=12.000, max(chi)=32, max(S)=1.61718, avg DeltaS=-1.1602e-03, since last update: 0.0s
+--> time=12.100, max(chi)=32, max(S)=1.62464, avg DeltaS=-8.6109e-04, since last update: 0.0s
+--> time=12.200, max(chi)=32, max(S)=1.63380, avg DeltaS=-4.0875e-04, since last update: 0.0s
+--> time=12.300, max(chi)=32, max(S)=1.64455, avg DeltaS=1.8466e-04, since last update: 0.0s
+--> time=12.400, max(chi)=32, max(S)=1.65669, avg DeltaS=9.0003e-04, since last update: 0.0s
+--> time=12.500, max(chi)=32, max(S)=1.66998, avg DeltaS=1.7115e-03, since last update: 0.0s
+--> time=12.600, max(chi)=32, max(S)=1.68412, avg DeltaS=2.5866e-03, since last update: 0.0s
+--> time=12.700, max(chi)=32, max(S)=1.69878, avg DeltaS=3.4873e-03, since last update: 0.0s
+--> time=12.800, max(chi)=32, max(S)=1.71363, avg DeltaS=4.3711e-03, since last update: 0.0s
+--> time=12.900, max(chi)=32, max(S)=1.72831, avg DeltaS=5.1934e-03, since last update: 0.0s
+--> time=13.000, max(chi)=32, max(S)=1.74248, avg DeltaS=5.9105e-03, since last update: 0.0s
+--> time=13.100, max(chi)=32, max(S)=1.75582, avg DeltaS=6.4827e-03, since last update: 0.0s
+--> time=13.200, max(chi)=32, max(S)=1.76802, avg DeltaS=6.8767e-03, since last update: 0.0s
+--> time=13.300, max(chi)=32, max(S)=1.77881, avg DeltaS=7.0683e-03, since last update: 0.0s
+--> time=13.400, max(chi)=32, max(S)=1.78796, avg DeltaS=7.0436e-03, since last update: 0.0s
+--> time=13.500, max(chi)=32, max(S)=1.79528, avg DeltaS=6.7995e-03, since last update: 0.0s
+--> time=13.600, max(chi)=32, max(S)=1.80061, avg DeltaS=6.3435e-03, since last update: 0.0s
+--> time=13.700, max(chi)=32, max(S)=1.80388, avg DeltaS=5.6932e-03, since last update: 0.0s
+--> time=13.800, max(chi)=32, max(S)=1.80505, avg DeltaS=4.8745e-03, since last update: 0.0s
+--> time=13.900, max(chi)=32, max(S)=1.80415, avg DeltaS=3.9206e-03, since last update: 0.0s
+--> time=14.000, max(chi)=32, max(S)=1.80127, avg DeltaS=2.8697e-03, since last update: 0.0s
+--> time=14.100, max(chi)=32, max(S)=1.79656, avg DeltaS=1.7633e-03, since last update: 0.0s
+--> time=14.200, max(chi)=32, max(S)=1.79023, avg DeltaS=6.4440e-04, since last update: 0.0s
+--> time=14.300, max(chi)=32, max(S)=1.78256, avg DeltaS=-4.4461e-04, since last update: 0.0s
+--> time=14.400, max(chi)=32, max(S)=1.77385, avg DeltaS=-1.4633e-03, since last update: 0.0s
+--> time=14.500, max(chi)=32, max(S)=1.76445, avg DeltaS=-2.3747e-03, since last update: 0.0s
+--> time=14.600, max(chi)=32, max(S)=1.75476, avg DeltaS=-3.1465e-03, since last update: 0.0s
+--> time=14.700, max(chi)=32, max(S)=1.74516, avg DeltaS=-3.7515e-03, since last update: 0.0s
+--> time=14.800, max(chi)=32, max(S)=1.73605, avg DeltaS=-4.1682e-03, since last update: 0.0s
+--> time=14.900, max(chi)=32, max(S)=1.72783, avg DeltaS=-4.3815e-03, since last update: 0.0s
+--> time=15.000, max(chi)=32, max(S)=1.72087, avg DeltaS=-4.3823e-03, since last update: 0.0s
+--> time=15.100, max(chi)=32, max(S)=1.71548, avg DeltaS=-4.1684e-03, since last update: 0.0s
+--> time=15.200, max(chi)=32, max(S)=1.71193, avg DeltaS=-3.7448e-03, since last update: 0.0s
+--> time=15.300, max(chi)=32, max(S)=1.71042, avg DeltaS=-3.1242e-03, since last update: 0.0s
+--> time=15.400, max(chi)=32, max(S)=1.71106, avg DeltaS=-2.3277e-03, since last update: 0.0s
+--> time=15.500, max(chi)=32, max(S)=1.71384, avg DeltaS=-1.3847e-03, since last update: 0.0s
+--> time=15.600, max(chi)=32, max(S)=1.71868, avg DeltaS=-3.3238e-04, since last update: 0.0s
+--> time=15.700, max(chi)=32, max(S)=1.72542, avg DeltaS=7.8639e-04, since last update: 0.0s
+--> time=15.800, max(chi)=32, max(S)=1.73383, avg DeltaS=1.9250e-03, since last update: 0.0s
+--> time=15.900, max(chi)=32, max(S)=1.74360, avg DeltaS=3.0352e-03, since last update: 0.0s
+--> time=16.000, max(chi)=32, max(S)=1.75440, avg DeltaS=4.0681e-03, since last update: 0.0s
+--> time=16.100, max(chi)=32, max(S)=1.76584, avg DeltaS=4.9778e-03, since last update: 0.0s
+--> time=16.200, max(chi)=32, max(S)=1.77751, avg DeltaS=5.7255e-03, since last update: 0.0s
+--> time=16.300, max(chi)=32, max(S)=1.78905, avg DeltaS=6.2783e-03, since last update: 0.0s
+--> time=16.400, max(chi)=32, max(S)=1.80007, avg DeltaS=6.6085e-03, since last update: 0.0s
+--> time=16.500, max(chi)=32, max(S)=1.81022, avg DeltaS=6.6950e-03, since last update: 0.0s
+--> time=16.600, max(chi)=32, max(S)=1.81916, avg DeltaS=6.5235e-03, since last update: 0.0s
+--> time=16.700, max(chi)=32, max(S)=1.82656, avg DeltaS=6.0877e-03, since last update: 0.0s
+--> time=16.800, max(chi)=32, max(S)=1.83214, avg DeltaS=5.3897e-03, since last update: 0.0s
+--> time=16.900, max(chi)=32, max(S)=1.83563, avg DeltaS=4.4403e-03, since last update: 0.0s
+--> time=17.000, max(chi)=32, max(S)=1.83682, avg DeltaS=3.2593e-03, since last update: 0.0s
+--> time=17.100, max(chi)=32, max(S)=1.83556, avg DeltaS=1.8749e-03, since last update: 0.0s
+--> time=17.200, max(chi)=32, max(S)=1.83175, avg DeltaS=3.2287e-04, since last update: 0.0s
+--> time=17.300, max(chi)=32, max(S)=1.82536, avg DeltaS=-1.3546e-03, since last update: 0.0s
+--> time=17.400, max(chi)=32, max(S)=1.81643, avg DeltaS=-3.1100e-03, since last update: 0.0s
+--> time=17.500, max(chi)=32, max(S)=1.80510, avg DeltaS=-4.8924e-03, since last update: 0.0s
+--> time=17.600, max(chi)=32, max(S)=1.79157, avg DeltaS=-6.6492e-03, since last update: 0.0s
+--> time=17.700, max(chi)=32, max(S)=1.77613, avg DeltaS=-8.3270e-03, since last update: 0.0s
+--> time=17.800, max(chi)=32, max(S)=1.75913, avg DeltaS=-9.8739e-03, since last update: 0.0s
+--> time=17.900, max(chi)=32, max(S)=1.74097, avg DeltaS=-1.1241e-02, since last update: 0.0s
+--> time=18.000, max(chi)=32, max(S)=1.72212, avg DeltaS=-1.2382e-02, since last update: 0.0s
+--> time=18.100, max(chi)=32, max(S)=1.70306, avg DeltaS=-1.3255e-02, since last update: 0.0s
+--> time=18.200, max(chi)=32, max(S)=1.68430, avg DeltaS=-1.3824e-02, since last update: 0.0s
+--> time=18.300, max(chi)=32, max(S)=1.66636, avg DeltaS=-1.4057e-02, since last update: 0.0s
+--> time=18.400, max(chi)=32, max(S)=1.64979, avg DeltaS=-1.3927e-02, since last update: 0.0s
+--> time=18.500, max(chi)=32, max(S)=1.63508, avg DeltaS=-1.3415e-02, since last update: 0.0s
+--> time=18.600, max(chi)=32, max(S)=1.62271, avg DeltaS=-1.2511e-02, since last update: 0.0s
+--> time=18.700, max(chi)=32, max(S)=1.61307, avg DeltaS=-1.1219e-02, since last update: 0.0s
+--> time=18.800, max(chi)=32, max(S)=1.60646, avg DeltaS=-9.5590e-03, since last update: 0.0s
+--> time=18.900, max(chi)=32, max(S)=1.60299, avg DeltaS=-7.5721e-03, since last update: 0.0s
+--> time=19.000, max(chi)=32, max(S)=1.60266, avg DeltaS=-5.3208e-03, since last update: 0.0s
+--> time=19.100, max(chi)=32, max(S)=1.60529, avg DeltaS=-2.8869e-03, since last update: 0.0s
+--> time=19.200, max(chi)=32, max(S)=1.61060, avg DeltaS=-3.6509e-04, since last update: 0.0s
+--> time=19.300, max(chi)=32, max(S)=1.61823, avg DeltaS=2.1461e-03, since last update: 0.0s
+--> time=19.400, max(chi)=32, max(S)=1.62780, avg DeltaS=4.5539e-03, since last update: 0.0s
+--> time=19.500, max(chi)=32, max(S)=1.63892, avg DeltaS=6.7775e-03, since last update: 0.0s
+--> time=19.600, max(chi)=32, max(S)=1.65119, avg DeltaS=8.7517e-03, since last update: 0.0s
+--> time=19.700, max(chi)=32, max(S)=1.66425, avg DeltaS=1.0427e-02, since last update: 0.0s
+--> time=19.800, max(chi)=32, max(S)=1.67773, avg DeltaS=1.1768e-02, since last update: 0.0s
+--> time=19.900, max(chi)=32, max(S)=1.69128, avg DeltaS=1.2751e-02, since last update: 0.0s
+--> time=20.000, max(chi)=32, max(S)=1.70454, avg DeltaS=1.3364e-02, since last update: 0.0s
+testing logger
+TEBDEngine: subconfig 'trunc_params'=Config(<2 options>, 'trunc_params')
+TEBDEngine: reading 'dt'=0.1
+TEBDEngine: reading 'N_steps'=1
+TEBDEngine: reading 'order'=4
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+trunc_params: reading 'chi_max'=100
+trunc_params: reading 'svd_min'=1e-12
+--> time=0.100, max(chi)=8, max(S)=0.01191, avg DeltaS=1.1905e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=0.200, max(chi)=10, max(S)=0.03879, avg DeltaS=2.6873e-02, since last update: 0.1s
+--> time=0.300, max(chi)=10, max(S)=0.07571, avg DeltaS=3.6868e-02, since last update: 0.0s
+--> time=0.400, max(chi)=15, max(S)=0.12004, avg DeltaS=4.4211e-02, since last update: 0.0s
+--> time=0.500, max(chi)=18, max(S)=0.16990, avg DeltaS=4.9653e-02, since last update: 0.0s
+--> time=0.600, max(chi)=20, max(S)=0.22377, avg DeltaS=5.3548e-02, since last update: 0.0s
+--> time=0.700, max(chi)=20, max(S)=0.28028, avg DeltaS=5.6075e-02, since last update: 0.0s
+--> time=0.800, max(chi)=20, max(S)=0.33819, avg DeltaS=5.7328e-02, since last update: 0.0s
+--> time=0.900, max(chi)=23, max(S)=0.39626, avg DeltaS=5.7357e-02, since last update: 0.0s
+--> time=1.000, max(chi)=24, max(S)=0.45330, avg DeltaS=5.6197e-02, since last update: 0.0s
+--> time=1.100, max(chi)=28, max(S)=0.50816, avg DeltaS=5.3886e-02, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=1.200, max(chi)=32, max(S)=2.94877, avg DeltaS=1.3289e+00, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=1.300, max(chi)=32, max(S)=2.95272, avg DeltaS=4.2462e-04, since last update: 0.1s
+--> time=1.400, max(chi)=32, max(S)=2.95462, avg DeltaS=-1.1771e-04, since last update: 0.0s
+--> time=1.500, max(chi)=32, max(S)=2.95443, avg DeltaS=-6.5024e-04, since last update: 0.0s
+--> time=1.600, max(chi)=32, max(S)=2.95224, avg DeltaS=-1.1442e-03, since last update: 0.0s
+--> time=1.700, max(chi)=32, max(S)=2.94826, avg DeltaS=-1.5727e-03, since last update: 0.0s
+--> time=1.800, max(chi)=32, max(S)=2.94278, avg DeltaS=-1.9126e-03, since last update: 0.0s
+--> time=1.900, max(chi)=32, max(S)=2.93621, avg DeltaS=-2.1463e-03, since last update: 0.0s
+--> time=2.000, max(chi)=32, max(S)=2.92900, avg DeltaS=-2.2618e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=2.100, max(chi)=32, max(S)=2.87109, avg DeltaS=-3.1207e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=2.200, max(chi)=32, max(S)=2.87316, avg DeltaS=9.5601e-04, since last update: 0.1s
+--> time=2.300, max(chi)=32, max(S)=2.87485, avg DeltaS=8.4218e-04, since last update: 0.0s
+--> time=2.400, max(chi)=32, max(S)=2.87596, avg DeltaS=6.8348e-04, since last update: 0.0s
+--> time=2.500, max(chi)=32, max(S)=2.87623, avg DeltaS=4.7846e-04, since last update: 0.0s
+--> time=2.600, max(chi)=32, max(S)=2.87542, avg DeltaS=2.3380e-04, since last update: 0.0s
+--> time=2.700, max(chi)=32, max(S)=2.87341, avg DeltaS=-3.2946e-05, since last update: 0.0s
+--> time=2.800, max(chi)=32, max(S)=2.87017, avg DeltaS=-3.0142e-04, since last update: 0.0s
+--> time=2.900, max(chi)=32, max(S)=2.86583, avg DeltaS=-5.5193e-04, since last update: 0.0s
+--> time=3.000, max(chi)=32, max(S)=2.86060, avg DeltaS=-7.6647e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=3.100, max(chi)=32, max(S)=2.92104, avg DeltaS=2.4869e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=3.200, max(chi)=32, max(S)=2.89576, avg DeltaS=-3.0568e-03, since last update: 0.1s
+--> time=3.300, max(chi)=32, max(S)=2.87076, avg DeltaS=-3.0203e-03, since last update: 0.0s
+--> time=3.400, max(chi)=32, max(S)=2.84722, avg DeltaS=-2.8362e-03, since last update: 0.0s
+--> time=3.500, max(chi)=32, max(S)=2.82636, avg DeltaS=-2.5061e-03, since last update: 0.0s
+--> time=3.600, max(chi)=32, max(S)=2.80920, avg DeltaS=-2.0496e-03, since last update: 0.0s
+--> time=3.700, max(chi)=32, max(S)=2.79669, avg DeltaS=-1.4790e-03, since last update: 0.0s
+--> time=3.800, max(chi)=32, max(S)=2.78950, avg DeltaS=-8.2662e-04, since last update: 0.0s
+--> time=3.900, max(chi)=32, max(S)=2.78798, avg DeltaS=-1.3287e-04, since last update: 0.0s
+--> time=4.000, max(chi)=32, max(S)=2.79224, avg DeltaS=5.7240e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=4.100, max(chi)=32, max(S)=2.75703, avg DeltaS=-2.3229e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=4.200, max(chi)=32, max(S)=2.76495, avg DeltaS=2.0257e-03, since last update: 0.1s
+--> time=4.300, max(chi)=32, max(S)=2.77576, avg DeltaS=2.6899e-03, since last update: 0.0s
+--> time=4.400, max(chi)=32, max(S)=2.78884, avg DeltaS=3.2065e-03, since last update: 0.0s
+--> time=4.500, max(chi)=32, max(S)=2.80360, avg DeltaS=3.5644e-03, since last update: 0.0s
+--> time=4.600, max(chi)=32, max(S)=2.81948, avg DeltaS=3.7610e-03, since last update: 0.0s
+--> time=4.700, max(chi)=32, max(S)=2.83590, avg DeltaS=3.7960e-03, since last update: 0.0s
+--> time=4.800, max(chi)=32, max(S)=2.85226, avg DeltaS=3.6733e-03, since last update: 0.0s
+--> time=4.900, max(chi)=32, max(S)=2.86794, avg DeltaS=3.4048e-03, since last update: 0.0s
+--> time=5.000, max(chi)=32, max(S)=2.88238, avg DeltaS=3.0106e-03, since last update: 0.0s
+--> time=5.100, max(chi)=32, max(S)=2.89511, avg DeltaS=2.5156e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=5.200, max(chi)=32, max(S)=2.90972, avg DeltaS=-4.9850e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=5.300, max(chi)=32, max(S)=2.91307, avg DeltaS=4.2361e-05, since last update: 0.1s
+--> time=5.400, max(chi)=32, max(S)=2.91439, avg DeltaS=-4.7233e-04, since last update: 0.0s
+--> time=5.500, max(chi)=32, max(S)=2.91360, avg DeltaS=-9.5281e-04, since last update: 0.0s
+--> time=5.600, max(chi)=32, max(S)=2.91077, avg DeltaS=-1.3746e-03, since last update: 0.0s
+--> time=5.700, max(chi)=32, max(S)=2.90607, avg DeltaS=-1.7165e-03, since last update: 0.0s
+--> time=5.800, max(chi)=32, max(S)=2.89979, avg DeltaS=-1.9626e-03, since last update: 0.0s
+--> time=5.900, max(chi)=32, max(S)=2.89229, avg DeltaS=-2.1033e-03, since last update: 0.0s
+--> time=6.000, max(chi)=32, max(S)=2.88400, avg DeltaS=-2.1359e-03, since last update: 0.0s
+--> time=6.100, max(chi)=32, max(S)=2.87540, avg DeltaS=-2.0634e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=6.200, max(chi)=32, max(S)=2.68679, avg DeltaS=-8.4499e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=6.300, max(chi)=32, max(S)=2.67489, avg DeltaS=-3.8108e-03, since last update: 0.1s
+--> time=6.400, max(chi)=32, max(S)=2.66428, avg DeltaS=-3.1846e-03, since last update: 0.0s
+--> time=6.500, max(chi)=32, max(S)=2.65552, avg DeltaS=-2.4070e-03, since last update: 0.0s
+--> time=6.600, max(chi)=32, max(S)=2.64907, avg DeltaS=-1.5132e-03, since last update: 0.0s
+--> time=6.700, max(chi)=32, max(S)=2.64524, avg DeltaS=-5.5033e-04, since last update: 0.0s
+--> time=6.800, max(chi)=32, max(S)=2.64413, avg DeltaS=4.3009e-04, since last update: 0.0s
+--> time=6.900, max(chi)=32, max(S)=2.64569, avg DeltaS=1.3799e-03, since last update: 0.0s
+--> time=7.000, max(chi)=32, max(S)=2.64971, avg DeltaS=2.2537e-03, since last update: 0.0s
+--> time=7.100, max(chi)=32, max(S)=2.65585, avg DeltaS=3.0134e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=7.200, max(chi)=32, max(S)=2.82099, avg DeltaS=6.5123e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=7.300, max(chi)=32, max(S)=2.81447, avg DeltaS=-1.2649e-03, since last update: 0.1s
+--> time=7.400, max(chi)=32, max(S)=2.80914, avg DeltaS=-9.1837e-04, since last update: 0.0s
+--> time=7.500, max(chi)=32, max(S)=2.80530, avg DeltaS=-5.3233e-04, since last update: 0.0s
+--> time=7.600, max(chi)=32, max(S)=2.80313, avg DeltaS=-1.2800e-04, since last update: 0.0s
+--> time=7.700, max(chi)=32, max(S)=2.80269, avg DeltaS=2.7565e-04, since last update: 0.0s
+--> time=7.800, max(chi)=32, max(S)=2.80396, avg DeltaS=6.6078e-04, since last update: 0.0s
+--> time=7.900, max(chi)=32, max(S)=2.80683, avg DeltaS=1.0139e-03, since last update: 0.0s
+--> time=8.000, max(chi)=32, max(S)=2.81113, avg DeltaS=1.3234e-03, since last update: 0.0s
+--> time=8.100, max(chi)=32, max(S)=2.81663, avg DeltaS=1.5798e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=8.200, max(chi)=32, max(S)=2.92398, avg DeltaS=4.7810e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=8.300, max(chi)=32, max(S)=2.93121, avg DeltaS=9.3205e-04, since last update: 0.1s
+--> time=8.400, max(chi)=32, max(S)=2.93904, avg DeltaS=1.0614e-03, since last update: 0.0s
+--> time=8.500, max(chi)=32, max(S)=2.94715, avg DeltaS=1.1343e-03, since last update: 0.0s
+--> time=8.600, max(chi)=32, max(S)=2.95525, avg DeltaS=1.1517e-03, since last update: 0.0s
+--> time=8.700, max(chi)=32, max(S)=2.96304, avg DeltaS=1.1182e-03, since last update: 0.0s
+--> time=8.800, max(chi)=32, max(S)=2.97021, avg DeltaS=1.0334e-03, since last update: 0.0s
+--> time=8.900, max(chi)=32, max(S)=2.97638, avg DeltaS=8.9625e-04, since last update: 0.0s
+--> time=9.000, max(chi)=32, max(S)=2.98126, avg DeltaS=7.1741e-04, since last update: 0.0s
+--> time=9.100, max(chi)=32, max(S)=2.98461, avg DeltaS=5.0751e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=9.200, max(chi)=32, max(S)=2.94284, avg DeltaS=-1.9752e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=9.300, max(chi)=32, max(S)=2.94105, avg DeltaS=-2.9320e-04, since last update: 0.1s
+--> time=9.400, max(chi)=32, max(S)=2.93819, avg DeltaS=-3.4037e-04, since last update: 0.0s
+--> time=9.500, max(chi)=32, max(S)=2.93437, avg DeltaS=-3.7320e-04, since last update: 0.0s
+--> time=9.600, max(chi)=32, max(S)=2.92974, avg DeltaS=-3.8792e-04, since last update: 0.0s
+--> time=9.700, max(chi)=32, max(S)=2.92450, avg DeltaS=-3.8189e-04, since last update: 0.0s
+--> time=9.800, max(chi)=32, max(S)=2.91889, avg DeltaS=-3.5433e-04, since last update: 0.0s
+--> time=9.900, max(chi)=32, max(S)=2.91315, avg DeltaS=-3.0615e-04, since last update: 0.0s
+--> time=10.000, max(chi)=32, max(S)=2.90754, avg DeltaS=-2.3964e-04, since last update: 0.0s
+--> time=10.100, max(chi)=32, max(S)=2.90228, avg DeltaS=-1.5758e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=10.200, max(chi)=32, max(S)=2.87780, avg DeltaS=-5.2051e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=10.300, max(chi)=32, max(S)=2.87186, avg DeltaS=-2.8633e-04, since last update: 0.1s
+--> time=10.400, max(chi)=32, max(S)=2.86676, avg DeltaS=-7.6002e-05, since last update: 0.0s
+--> time=10.500, max(chi)=32, max(S)=2.86268, avg DeltaS=1.3310e-04, since last update: 0.0s
+--> time=10.600, max(chi)=32, max(S)=2.85981, avg DeltaS=3.3600e-04, since last update: 0.0s
+--> time=10.700, max(chi)=32, max(S)=2.85827, avg DeltaS=5.2653e-04, since last update: 0.0s
+--> time=10.800, max(chi)=32, max(S)=2.85815, avg DeltaS=6.9643e-04, since last update: 0.0s
+--> time=10.900, max(chi)=32, max(S)=2.85943, avg DeltaS=8.3699e-04, since last update: 0.0s
+--> time=11.000, max(chi)=32, max(S)=2.86203, avg DeltaS=9.4314e-04, since last update: 0.0s
+--> time=11.100, max(chi)=32, max(S)=2.86581, avg DeltaS=1.0075e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=11.200, max(chi)=32, max(S)=2.91811, avg DeltaS=1.9385e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=11.300, max(chi)=32, max(S)=2.92023, avg DeltaS=-3.4888e-04, since last update: 0.1s
+--> time=11.400, max(chi)=32, max(S)=2.92312, avg DeltaS=-2.6026e-04, since last update: 0.0s
+--> time=11.500, max(chi)=32, max(S)=2.92665, avg DeltaS=-1.5572e-04, since last update: 0.0s
+--> time=11.600, max(chi)=32, max(S)=2.93068, avg DeltaS=-4.1494e-05, since last update: 0.0s
+--> time=11.700, max(chi)=32, max(S)=2.93505, avg DeltaS=7.3496e-05, since last update: 0.0s
+--> time=11.800, max(chi)=32, max(S)=2.93958, avg DeltaS=1.7971e-04, since last update: 0.0s
+--> time=11.900, max(chi)=32, max(S)=2.94406, avg DeltaS=2.7056e-04, since last update: 0.0s
+--> time=12.000, max(chi)=32, max(S)=2.94833, avg DeltaS=3.4317e-04, since last update: 0.0s
+--> time=12.100, max(chi)=32, max(S)=2.95224, avg DeltaS=3.9638e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=12.200, max(chi)=32, max(S)=2.96040, avg DeltaS=4.6267e-03, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=12.300, max(chi)=32, max(S)=2.96062, avg DeltaS=-1.8775e-05, since last update: 0.1s
+--> time=12.400, max(chi)=32, max(S)=2.96040, avg DeltaS=-4.3792e-05, since last update: 0.0s
+--> time=12.500, max(chi)=32, max(S)=2.95976, avg DeltaS=-7.0382e-05, since last update: 0.0s
+--> time=12.600, max(chi)=32, max(S)=2.95877, avg DeltaS=-9.5645e-05, since last update: 0.0s
+--> time=12.700, max(chi)=32, max(S)=2.95753, avg DeltaS=-1.1653e-04, since last update: 0.0s
+--> time=12.800, max(chi)=32, max(S)=2.95607, avg DeltaS=-1.3741e-04, since last update: 0.0s
+--> time=12.900, max(chi)=32, max(S)=2.95436, avg DeltaS=-1.6265e-04, since last update: 0.0s
+--> time=13.000, max(chi)=32, max(S)=2.95243, avg DeltaS=-1.8545e-04, since last update: 0.0s
+--> time=13.100, max(chi)=32, max(S)=2.95033, avg DeltaS=-1.9884e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=13.200, max(chi)=32, max(S)=2.82194, avg DeltaS=-5.8563e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=13.300, max(chi)=32, max(S)=2.81901, avg DeltaS=-2.5861e-03, since last update: 0.1s
+--> time=13.400, max(chi)=32, max(S)=2.81504, avg DeltaS=-2.9216e-03, since last update: 0.0s
+--> time=13.500, max(chi)=32, max(S)=2.81025, avg DeltaS=-3.1277e-03, since last update: 0.0s
+--> time=13.600, max(chi)=32, max(S)=2.80487, avg DeltaS=-3.1959e-03, since last update: 0.0s
+--> time=13.700, max(chi)=32, max(S)=2.79907, avg DeltaS=-3.1293e-03, since last update: 0.0s
+--> time=13.800, max(chi)=32, max(S)=2.79297, avg DeltaS=-2.9390e-03, since last update: 0.0s
+--> time=13.900, max(chi)=32, max(S)=2.78662, avg DeltaS=-2.6402e-03, since last update: 0.0s
+--> time=14.000, max(chi)=32, max(S)=2.78011, avg DeltaS=-2.2518e-03, since last update: 0.0s
+--> time=14.100, max(chi)=32, max(S)=2.77354, avg DeltaS=-1.7943e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=14.200, max(chi)=32, max(S)=2.92784, avg DeltaS=6.8809e-02, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=14.300, max(chi)=32, max(S)=2.92563, avg DeltaS=-2.2240e-04, since last update: 0.1s
+--> time=14.400, max(chi)=32, max(S)=2.92355, avg DeltaS=-1.1460e-04, since last update: 0.0s
+--> time=14.500, max(chi)=32, max(S)=2.92175, avg DeltaS=-2.2437e-06, since last update: 0.0s
+--> time=14.600, max(chi)=32, max(S)=2.92035, avg DeltaS=1.1138e-04, since last update: 0.0s
+--> time=14.700, max(chi)=32, max(S)=2.91946, avg DeltaS=2.2120e-04, since last update: 0.0s
+--> time=14.800, max(chi)=32, max(S)=2.91911, avg DeltaS=3.2122e-04, since last update: 0.0s
+--> time=14.900, max(chi)=32, max(S)=2.91928, avg DeltaS=4.0627e-04, since last update: 0.0s
+--> time=15.000, max(chi)=32, max(S)=2.91989, avg DeltaS=4.7346e-04, since last update: 0.0s
+--> time=15.100, max(chi)=32, max(S)=2.92085, avg DeltaS=5.2311e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=15.200, max(chi)=32, max(S)=2.96427, avg DeltaS=1.4061e-02, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=15.300, max(chi)=32, max(S)=2.96809, avg DeltaS=4.2035e-04, since last update: 0.1s
+--> time=15.400, max(chi)=32, max(S)=2.97189, avg DeltaS=4.8381e-04, since last update: 0.0s
+--> time=15.500, max(chi)=32, max(S)=2.97548, avg DeltaS=5.2278e-04, since last update: 0.0s
+--> time=15.600, max(chi)=32, max(S)=2.97866, avg DeltaS=5.3281e-04, since last update: 0.0s
+--> time=15.700, max(chi)=32, max(S)=2.98126, avg DeltaS=5.1296e-04, since last update: 0.0s
+--> time=15.800, max(chi)=32, max(S)=2.98315, avg DeltaS=4.6492e-04, since last update: 0.0s
+--> time=15.900, max(chi)=32, max(S)=2.98424, avg DeltaS=3.9208e-04, since last update: 0.0s
+--> time=16.000, max(chi)=32, max(S)=2.98447, avg DeltaS=2.9894e-04, since last update: 0.0s
+--> time=16.100, max(chi)=32, max(S)=2.98383, avg DeltaS=1.9085e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=16.200, max(chi)=32, max(S)=2.92844, avg DeltaS=-1.8759e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=16.300, max(chi)=32, max(S)=2.92836, avg DeltaS=2.0364e-04, since last update: 0.1s
+--> time=16.400, max(chi)=32, max(S)=2.92812, avg DeltaS=2.1559e-04, since last update: 0.0s
+--> time=16.500, max(chi)=32, max(S)=2.92774, avg DeltaS=2.2242e-04, since last update: 0.0s
+--> time=16.600, max(chi)=32, max(S)=2.92724, avg DeltaS=2.2318e-04, since last update: 0.0s
+--> time=16.700, max(chi)=32, max(S)=2.92665, avg DeltaS=2.1746e-04, since last update: 0.0s
+--> time=16.800, max(chi)=32, max(S)=2.92600, avg DeltaS=2.0599e-04, since last update: 0.0s
+--> time=16.900, max(chi)=32, max(S)=2.92529, avg DeltaS=1.9101e-04, since last update: 0.0s
+--> time=17.000, max(chi)=32, max(S)=2.92457, avg DeltaS=1.7619e-04, since last update: 0.0s
+--> time=17.100, max(chi)=32, max(S)=2.92389, avg DeltaS=1.6587e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=17.200, max(chi)=32, max(S)=2.95378, avg DeltaS=1.0964e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=17.300, max(chi)=32, max(S)=2.95183, avg DeltaS=-7.0222e-04, since last update: 0.1s
+--> time=17.400, max(chi)=32, max(S)=2.95018, avg DeltaS=-7.4373e-04, since last update: 0.0s
+--> time=17.500, max(chi)=32, max(S)=2.94890, avg DeltaS=-7.5329e-04, since last update: 0.0s
+--> time=17.600, max(chi)=32, max(S)=2.94806, avg DeltaS=-7.2479e-04, since last update: 0.0s
+--> time=17.700, max(chi)=32, max(S)=2.94768, avg DeltaS=-6.5910e-04, since last update: 0.0s
+--> time=17.800, max(chi)=32, max(S)=2.94774, avg DeltaS=-5.6234e-04, since last update: 0.0s
+--> time=17.900, max(chi)=32, max(S)=2.94818, avg DeltaS=-4.4171e-04, since last update: 0.0s
+--> time=18.000, max(chi)=32, max(S)=2.94890, avg DeltaS=-3.0545e-04, since last update: 0.0s
+--> time=18.100, max(chi)=32, max(S)=2.94982, avg DeltaS=-1.6162e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=18.200, max(chi)=32, max(S)=2.94948, avg DeltaS=4.2557e-03, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=18.300, max(chi)=32, max(S)=2.94971, avg DeltaS=1.4207e-04, since last update: 0.1s
+--> time=18.400, max(chi)=32, max(S)=2.94996, avg DeltaS=1.3797e-04, since last update: 0.0s
+--> time=18.500, max(chi)=32, max(S)=2.95026, avg DeltaS=1.2923e-04, since last update: 0.0s
+--> time=18.600, max(chi)=32, max(S)=2.95063, avg DeltaS=1.1756e-04, since last update: 0.0s
+--> time=18.700, max(chi)=32, max(S)=2.95113, avg DeltaS=1.0252e-04, since last update: 0.0s
+--> time=18.800, max(chi)=32, max(S)=2.95175, avg DeltaS=8.0302e-05, since last update: 0.0s
+--> time=18.900, max(chi)=32, max(S)=2.95245, avg DeltaS=4.4870e-05, since last update: 0.0s
+--> time=19.000, max(chi)=32, max(S)=2.95310, avg DeltaS=-9.3698e-06, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=19.100, max(chi)=32, max(S)=2.93988, avg DeltaS=-7.2365e-03, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=19.200, max(chi)=32, max(S)=2.94328, avg DeltaS=-1.0246e-04, since last update: 0.1s
+--> time=19.300, max(chi)=32, max(S)=2.94662, avg DeltaS=-1.1138e-04, since last update: 0.0s
+--> time=19.400, max(chi)=32, max(S)=2.94976, avg DeltaS=-1.1448e-04, since last update: 0.0s
+--> time=19.500, max(chi)=32, max(S)=2.95258, avg DeltaS=-1.1212e-04, since last update: 0.0s
+--> time=19.600, max(chi)=32, max(S)=2.95496, avg DeltaS=-1.0433e-04, since last update: 0.0s
+--> time=19.700, max(chi)=32, max(S)=2.95683, avg DeltaS=-9.0942e-05, since last update: 0.0s
+--> time=19.800, max(chi)=32, max(S)=2.95812, avg DeltaS=-7.1692e-05, since last update: 0.0s
+--> time=19.900, max(chi)=32, max(S)=2.95883, avg DeltaS=-4.6787e-05, since last update: 0.0s
+--> time=20.000, max(chi)=32, max(S)=2.95893, avg DeltaS=-1.9334e-05, since last update: 0.0s
+testing logger
+TEBDEngine: subconfig 'trunc_params'=Config(<2 options>, 'trunc_params')
+TEBDEngine: reading 'dt'=0.1
+TEBDEngine: reading 'N_steps'=1
+TEBDEngine: reading 'order'=4
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+trunc_params: reading 'chi_max'=100
+trunc_params: reading 'svd_min'=1e-12
+--> time=0.100, max(chi)=8, max(S)=0.01191, avg DeltaS=1.1905e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=0.200, max(chi)=10, max(S)=0.03879, avg DeltaS=2.6873e-02, since last update: 0.1s
+--> time=0.300, max(chi)=10, max(S)=0.07571, avg DeltaS=3.6868e-02, since last update: 0.0s
+--> time=0.400, max(chi)=15, max(S)=0.12004, avg DeltaS=4.4211e-02, since last update: 0.0s
+--> time=0.500, max(chi)=18, max(S)=0.16990, avg DeltaS=4.9653e-02, since last update: 0.0s
+--> time=0.600, max(chi)=20, max(S)=0.22377, avg DeltaS=5.3548e-02, since last update: 0.0s
+--> time=0.700, max(chi)=20, max(S)=0.28028, avg DeltaS=5.6075e-02, since last update: 0.0s
+--> time=0.800, max(chi)=20, max(S)=0.33819, avg DeltaS=5.7328e-02, since last update: 0.0s
+--> time=0.900, max(chi)=23, max(S)=0.39626, avg DeltaS=5.7357e-02, since last update: 0.0s
+--> time=1.000, max(chi)=24, max(S)=0.45330, avg DeltaS=5.6197e-02, since last update: 0.0s
+--> time=1.100, max(chi)=28, max(S)=0.50816, avg DeltaS=5.3886e-02, since last update: 0.0s
+--> time=1.200, max(chi)=28, max(S)=0.55973, avg DeltaS=5.0477e-02, since last update: 0.0s
+--> time=1.300, max(chi)=29, max(S)=0.60699, avg DeltaS=4.6050e-02, since last update: 0.0s
+--> time=1.400, max(chi)=30, max(S)=0.64904, avg DeltaS=4.0711e-02, since last update: 0.0s
+--> time=1.500, max(chi)=30, max(S)=0.68512, avg DeltaS=3.4599e-02, since last update: 0.0s
+--> time=1.600, max(chi)=32, max(S)=0.71465, avg DeltaS=2.7877e-02, since last update: 0.0s
+--> time=1.700, max(chi)=32, max(S)=0.73722, avg DeltaS=2.0734e-02, since last update: 0.0s
+--> time=1.800, max(chi)=32, max(S)=0.75266, avg DeltaS=1.3371e-02, since last update: 0.0s
+--> time=1.900, max(chi)=32, max(S)=0.76100, avg DeltaS=5.9982e-03, since last update: 0.0s
+--> time=2.000, max(chi)=32, max(S)=0.76247, avg DeltaS=-1.1745e-03, since last update: 0.0s
+--> time=2.100, max(chi)=32, max(S)=0.75750, avg DeltaS=-7.9441e-03, since last update: 0.0s
+--> time=2.200, max(chi)=32, max(S)=0.74668, avg DeltaS=-1.4120e-02, since last update: 0.0s
+--> time=2.300, max(chi)=32, max(S)=0.73076, avg DeltaS=-1.9529e-02, since last update: 0.0s
+--> time=2.400, max(chi)=32, max(S)=0.71060, avg DeltaS=-2.4015e-02, since last update: 0.0s
+--> time=2.500, max(chi)=32, max(S)=0.68717, avg DeltaS=-2.7445e-02, since last update: 0.0s
+--> time=2.600, max(chi)=32, max(S)=0.66282, avg DeltaS=-2.9705e-02, since last update: 0.0s
+--> time=2.700, max(chi)=32, max(S)=0.64002, avg DeltaS=-3.0700e-02, since last update: 0.0s
+--> time=2.800, max(chi)=32, max(S)=0.61793, avg DeltaS=-3.0362e-02, since last update: 0.0s
+--> time=2.900, max(chi)=32, max(S)=0.59756, avg DeltaS=-2.8652e-02, since last update: 0.0s
+--> time=3.000, max(chi)=32, max(S)=0.57987, avg DeltaS=-2.5577e-02, since last update: 0.0s
+--> time=3.100, max(chi)=32, max(S)=0.56568, avg DeltaS=-2.1218e-02, since last update: 0.0s
+--> time=3.200, max(chi)=32, max(S)=0.55569, avg DeltaS=-1.5756e-02, since last update: 0.0s
+--> time=3.300, max(chi)=32, max(S)=0.55040, avg DeltaS=-9.4850e-03, since last update: 0.0s
+--> time=3.400, max(chi)=32, max(S)=0.55015, avg DeltaS=-2.7826e-03, since last update: 0.0s
+--> time=3.500, max(chi)=32, max(S)=0.55504, avg DeltaS=3.9579e-03, since last update: 0.0s
+--> time=3.600, max(chi)=32, max(S)=0.56501, avg DeltaS=1.0398e-02, since last update: 0.0s
+--> time=3.700, max(chi)=32, max(S)=0.57978, avg DeltaS=1.6281e-02, since last update: 0.0s
+--> time=3.800, max(chi)=32, max(S)=0.59893, avg DeltaS=2.1432e-02, since last update: 0.0s
+--> time=3.900, max(chi)=32, max(S)=0.62186, avg DeltaS=2.5736e-02, since last update: 0.0s
+--> time=4.000, max(chi)=32, max(S)=0.64790, avg DeltaS=2.9128e-02, since last update: 0.0s
+--> time=4.100, max(chi)=32, max(S)=0.67625, avg DeltaS=3.1581e-02, since last update: 0.0s
+--> time=4.200, max(chi)=32, max(S)=0.70607, avg DeltaS=3.3099e-02, since last update: 0.0s
+--> time=4.300, max(chi)=32, max(S)=0.73649, avg DeltaS=3.3714e-02, since last update: 0.0s
+--> time=4.400, max(chi)=32, max(S)=0.76661, avg DeltaS=3.3481e-02, since last update: 0.0s
+--> time=4.500, max(chi)=32, max(S)=0.79557, avg DeltaS=3.2469e-02, since last update: 0.0s
+--> time=4.600, max(chi)=32, max(S)=0.82256, avg DeltaS=3.0765e-02, since last update: 0.0s
+--> time=4.700, max(chi)=32, max(S)=0.84685, avg DeltaS=2.8460e-02, since last update: 0.0s
+--> time=4.800, max(chi)=32, max(S)=0.86783, avg DeltaS=2.5656e-02, since last update: 0.0s
+--> time=4.900, max(chi)=32, max(S)=0.88534, avg DeltaS=2.2455e-02, since last update: 0.0s
+--> time=5.000, max(chi)=32, max(S)=0.92196, avg DeltaS=1.8966e-02, since last update: 0.0s
+--> time=5.100, max(chi)=32, max(S)=0.95506, avg DeltaS=1.5299e-02, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=5.200, max(chi)=32, max(S)=2.87075, avg DeltaS=9.1020e-01, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=5.300, max(chi)=32, max(S)=2.87427, avg DeltaS=3.9604e-04, since last update: 0.1s
+--> time=5.400, max(chi)=32, max(S)=2.87633, avg DeltaS=2.2488e-04, since last update: 0.0s
+--> time=5.500, max(chi)=32, max(S)=2.87669, avg DeltaS=3.9887e-05, since last update: 0.0s
+--> time=5.600, max(chi)=32, max(S)=2.87527, avg DeltaS=-1.4200e-04, since last update: 0.0s
+--> time=5.700, max(chi)=32, max(S)=2.87209, avg DeltaS=-3.0604e-04, since last update: 0.0s
+--> time=5.800, max(chi)=32, max(S)=2.86726, avg DeltaS=-4.4157e-04, since last update: 0.0s
+--> time=5.900, max(chi)=32, max(S)=2.86102, avg DeltaS=-5.4051e-04, since last update: 0.0s
+--> time=6.000, max(chi)=32, max(S)=2.85368, avg DeltaS=-5.9729e-04, since last update: 0.0s
+--> time=6.100, max(chi)=32, max(S)=2.84564, avg DeltaS=-6.0994e-04, since last update: 0.0s
+--> time=6.200, max(chi)=32, max(S)=2.83736, avg DeltaS=-5.8022e-04, since last update: 0.0s
+--> time=6.300, max(chi)=32, max(S)=2.82928, avg DeltaS=-5.1307e-04, since last update: 0.0s
+--> time=6.400, max(chi)=32, max(S)=2.82183, avg DeltaS=-4.1533e-04, since last update: 0.0s
+--> time=6.500, max(chi)=32, max(S)=2.81540, avg DeltaS=-2.9454e-04, since last update: 0.0s
+--> time=6.600, max(chi)=32, max(S)=2.81029, avg DeltaS=-1.5844e-04, since last update: 0.0s
+--> time=6.700, max(chi)=32, max(S)=2.80669, avg DeltaS=-1.4339e-05, since last update: 0.0s
+--> time=6.800, max(chi)=32, max(S)=2.80474, avg DeltaS=1.3257e-04, since last update: 0.0s
+--> time=6.900, max(chi)=32, max(S)=2.80451, avg DeltaS=2.8083e-04, since last update: 0.0s
+--> time=7.000, max(chi)=32, max(S)=2.80604, avg DeltaS=4.3101e-04, since last update: 0.0s
+--> time=7.100, max(chi)=32, max(S)=2.80933, avg DeltaS=5.7837e-04, since last update: 0.0s
+--> time=7.200, max(chi)=32, max(S)=2.81420, avg DeltaS=7.0768e-04, since last update: 0.0s
+--> time=7.300, max(chi)=32, max(S)=2.82035, avg DeltaS=8.0460e-04, since last update: 0.0s
+--> time=7.400, max(chi)=32, max(S)=2.82738, avg DeltaS=8.6059e-04, since last update: 0.0s
+--> time=7.500, max(chi)=32, max(S)=2.83491, avg DeltaS=8.7526e-04, since last update: 0.0s
+--> time=7.600, max(chi)=32, max(S)=2.84260, avg DeltaS=8.5383e-04, since last update: 0.0s
+--> time=7.700, max(chi)=32, max(S)=2.85015, avg DeltaS=8.0392e-04, since last update: 0.0s
+--> time=7.800, max(chi)=32, max(S)=2.85732, avg DeltaS=7.3436e-04, since last update: 0.0s
+--> time=7.900, max(chi)=32, max(S)=2.86394, avg DeltaS=6.5441e-04, since last update: 0.0s
+--> time=8.000, max(chi)=32, max(S)=2.86983, avg DeltaS=5.7281e-04, since last update: 0.0s
+--> time=8.100, max(chi)=32, max(S)=2.87490, avg DeltaS=4.9694e-04, since last update: 0.0s
+--> time=8.200, max(chi)=32, max(S)=2.87906, avg DeltaS=4.3252e-04, since last update: 0.0s
+--> time=8.300, max(chi)=32, max(S)=2.88220, avg DeltaS=3.7846e-04, since last update: 0.0s
+--> time=8.400, max(chi)=32, max(S)=2.88425, avg DeltaS=3.3482e-04, since last update: 0.0s
+--> time=8.500, max(chi)=32, max(S)=2.88520, avg DeltaS=3.0432e-04, since last update: 0.0s
+--> time=8.600, max(chi)=32, max(S)=2.88509, avg DeltaS=2.8711e-04, since last update: 0.0s
+--> time=8.700, max(chi)=32, max(S)=2.88399, avg DeltaS=2.8192e-04, since last update: 0.0s
+--> time=8.800, max(chi)=32, max(S)=2.88202, avg DeltaS=2.8689e-04, since last update: 0.0s
+--> time=8.900, max(chi)=32, max(S)=2.87934, avg DeltaS=2.9995e-04, since last update: 0.0s
+--> time=9.000, max(chi)=32, max(S)=2.87605, avg DeltaS=3.1470e-04, since last update: 0.0s
+--> time=9.100, max(chi)=32, max(S)=2.87229, avg DeltaS=3.2726e-04, since last update: 0.0s
+--> time=9.200, max(chi)=32, max(S)=2.86819, avg DeltaS=3.3926e-04, since last update: 0.0s
+--> time=9.300, max(chi)=32, max(S)=2.86392, avg DeltaS=3.5240e-04, since last update: 0.0s
+--> time=9.400, max(chi)=32, max(S)=2.85968, avg DeltaS=3.6786e-04, since last update: 0.0s
+--> time=9.500, max(chi)=32, max(S)=2.85565, avg DeltaS=3.8581e-04, since last update: 0.0s
+--> time=9.600, max(chi)=32, max(S)=2.85200, avg DeltaS=4.0523e-04, since last update: 0.0s
+--> time=9.700, max(chi)=32, max(S)=2.84886, avg DeltaS=4.2430e-04, since last update: 0.0s
+--> time=9.800, max(chi)=32, max(S)=2.84632, avg DeltaS=4.4179e-04, since last update: 0.0s
+--> time=9.900, max(chi)=32, max(S)=2.84445, avg DeltaS=4.5898e-04, since last update: 0.0s
+--> time=10.000, max(chi)=32, max(S)=2.84333, avg DeltaS=4.8037e-04, since last update: 0.0s
+--> time=10.100, max(chi)=32, max(S)=2.84306, avg DeltaS=5.1056e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=10.200, max(chi)=32, max(S)=2.92115, avg DeltaS=2.1946e-02, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=10.300, max(chi)=32, max(S)=2.92015, avg DeltaS=-6.2871e-04, since last update: 0.1s
+--> time=10.400, max(chi)=32, max(S)=2.91872, avg DeltaS=-5.9375e-04, since last update: 0.0s
+--> time=10.500, max(chi)=32, max(S)=2.91684, avg DeltaS=-5.4029e-04, since last update: 0.0s
+--> time=10.600, max(chi)=32, max(S)=2.91456, avg DeltaS=-4.7070e-04, since last update: 0.0s
+--> time=10.700, max(chi)=32, max(S)=2.91197, avg DeltaS=-3.8789e-04, since last update: 0.0s
+--> time=10.800, max(chi)=32, max(S)=2.90923, avg DeltaS=-2.9428e-04, since last update: 0.0s
+--> time=10.900, max(chi)=32, max(S)=2.90653, avg DeltaS=-1.9303e-04, since last update: 0.0s
+--> time=11.000, max(chi)=32, max(S)=2.90398, avg DeltaS=-9.3958e-05, since last update: 0.0s
+--> time=11.100, max(chi)=32, max(S)=2.90171, avg DeltaS=3.1950e-07, since last update: 0.0s
+--> time=11.200, max(chi)=32, max(S)=2.89983, avg DeltaS=8.9941e-05, since last update: 0.0s
+--> time=11.300, max(chi)=32, max(S)=2.89843, avg DeltaS=1.7566e-04, since last update: 0.0s
+--> time=11.400, max(chi)=32, max(S)=2.89759, avg DeltaS=2.5864e-04, since last update: 0.0s
+--> time=11.500, max(chi)=32, max(S)=2.89735, avg DeltaS=3.4002e-04, since last update: 0.0s
+--> time=11.600, max(chi)=32, max(S)=2.89773, avg DeltaS=4.2006e-04, since last update: 0.0s
+--> time=11.700, max(chi)=32, max(S)=2.89875, avg DeltaS=4.9678e-04, since last update: 0.0s
+--> time=11.800, max(chi)=32, max(S)=2.90036, avg DeltaS=5.6511e-04, since last update: 0.0s
+--> time=11.900, max(chi)=32, max(S)=2.90249, avg DeltaS=6.1782e-04, since last update: 0.0s
+--> time=12.000, max(chi)=32, max(S)=2.90502, avg DeltaS=6.4954e-04, since last update: 0.0s
+--> time=12.100, max(chi)=32, max(S)=2.90787, avg DeltaS=6.5912e-04, since last update: 0.0s
+--> time=12.200, max(chi)=32, max(S)=2.91092, avg DeltaS=6.4237e-04, since last update: 0.0s
+--> time=12.300, max(chi)=32, max(S)=2.91406, avg DeltaS=5.9697e-04, since last update: 0.0s
+--> time=12.400, max(chi)=32, max(S)=2.91715, avg DeltaS=5.2563e-04, since last update: 0.0s
+--> time=12.500, max(chi)=32, max(S)=2.92011, avg DeltaS=4.3410e-04, since last update: 0.0s
+--> time=12.600, max(chi)=32, max(S)=2.92285, avg DeltaS=3.3027e-04, since last update: 0.0s
+--> time=12.700, max(chi)=32, max(S)=2.92532, avg DeltaS=2.2121e-04, since last update: 0.0s
+--> time=12.800, max(chi)=32, max(S)=2.92741, avg DeltaS=1.0895e-04, since last update: 0.0s
+--> time=12.900, max(chi)=32, max(S)=2.92901, avg DeltaS=-4.7561e-06, since last update: 0.0s
+--> time=13.000, max(chi)=32, max(S)=2.92999, avg DeltaS=-1.1351e-04, since last update: 0.0s
+--> time=13.100, max(chi)=32, max(S)=2.93031, avg DeltaS=-2.0968e-04, since last update: 0.0s
+--> time=13.200, max(chi)=32, max(S)=2.92994, avg DeltaS=-2.8659e-04, since last update: 0.0s
+--> time=13.300, max(chi)=32, max(S)=2.92894, avg DeltaS=-3.3968e-04, since last update: 0.0s
+--> time=13.400, max(chi)=32, max(S)=2.92738, avg DeltaS=-3.6697e-04, since last update: 0.0s
+--> time=13.500, max(chi)=32, max(S)=2.92539, avg DeltaS=-3.6767e-04, since last update: 0.0s
+--> time=13.600, max(chi)=32, max(S)=2.92311, avg DeltaS=-3.4129e-04, since last update: 0.0s
+--> time=13.700, max(chi)=32, max(S)=2.92076, avg DeltaS=-2.8870e-04, since last update: 0.0s
+--> time=13.800, max(chi)=32, max(S)=2.91852, avg DeltaS=-2.1304e-04, since last update: 0.0s
+--> time=13.900, max(chi)=32, max(S)=2.91657, avg DeltaS=-1.2077e-04, since last update: 0.0s
+--> time=14.000, max(chi)=32, max(S)=2.91502, avg DeltaS=-2.2594e-05, since last update: 0.0s
+--> time=14.100, max(chi)=32, max(S)=2.91391, avg DeltaS=7.4918e-05, since last update: 0.0s
+--> time=14.200, max(chi)=32, max(S)=2.91330, avg DeltaS=1.7152e-04, since last update: 0.0s
+--> time=14.300, max(chi)=32, max(S)=2.91321, avg DeltaS=2.6597e-04, since last update: 0.0s
+--> time=14.400, max(chi)=32, max(S)=2.91363, avg DeltaS=3.5585e-04, since last update: 0.0s
+--> time=14.500, max(chi)=32, max(S)=2.91454, avg DeltaS=4.3850e-04, since last update: 0.0s
+--> time=14.600, max(chi)=32, max(S)=2.91585, avg DeltaS=5.1069e-04, since last update: 0.0s
+--> time=14.700, max(chi)=32, max(S)=2.91748, avg DeltaS=5.6956e-04, since last update: 0.0s
+--> time=14.800, max(chi)=32, max(S)=2.91931, avg DeltaS=6.1370e-04, since last update: 0.0s
+--> time=14.900, max(chi)=32, max(S)=2.92127, avg DeltaS=6.4381e-04, since last update: 0.0s
+--> time=15.000, max(chi)=32, max(S)=2.92329, avg DeltaS=6.6255e-04, since last update: 0.0s
+--> time=15.100, max(chi)=32, max(S)=2.92535, avg DeltaS=6.7338e-04, since last update: 0.0s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=15.200, max(chi)=32, max(S)=2.98015, avg DeltaS=1.8384e-02, since last update: 0.1s
+Calculate U for {'order': 4, 'delta_t': 0.1, 'type_evo': 'real', 'E_offset': None, 'tau': 0.1}
+--> time=15.300, max(chi)=32, max(S)=2.98181, avg DeltaS=7.9510e-05, since last update: 0.1s
+--> time=15.400, max(chi)=32, max(S)=2.98316, avg DeltaS=3.5707e-05, since last update: 0.0s
+--> time=15.500, max(chi)=32, max(S)=2.98408, avg DeltaS=-1.7753e-05, since last update: 0.0s
+--> time=15.600, max(chi)=32, max(S)=2.98448, avg DeltaS=-7.4517e-05, since last update: 0.0s
+--> time=15.700, max(chi)=32, max(S)=2.98433, avg DeltaS=-1.2731e-04, since last update: 0.0s
+--> time=15.800, max(chi)=32, max(S)=2.98366, avg DeltaS=-1.6925e-04, since last update: 0.0s
+--> time=15.900, max(chi)=32, max(S)=2.98256, avg DeltaS=-1.9578e-04, since last update: 0.0s
+--> time=16.000, max(chi)=32, max(S)=2.98113, avg DeltaS=-2.0572e-04, since last update: 0.0s
+--> time=16.100, max(chi)=32, max(S)=2.97949, avg DeltaS=-1.9979e-04, since last update: 0.0s
+--> time=16.200, max(chi)=32, max(S)=2.97775, avg DeltaS=-1.7882e-04, since last update: 0.0s
+--> time=16.300, max(chi)=32, max(S)=2.97605, avg DeltaS=-1.4388e-04, since last update: 0.0s
+--> time=16.400, max(chi)=32, max(S)=2.97452, avg DeltaS=-9.7450e-05, since last update: 0.0s
+--> time=16.500, max(chi)=32, max(S)=2.97325, avg DeltaS=-4.2970e-05, since last update: 0.0s
+--> time=16.600, max(chi)=32, max(S)=2.97233, avg DeltaS=1.6552e-05, since last update: 0.0s
+--> time=16.700, max(chi)=32, max(S)=2.97182, avg DeltaS=7.8774e-05, since last update: 0.0s
+--> time=16.800, max(chi)=32, max(S)=2.97175, avg DeltaS=1.4172e-04, since last update: 0.0s
+--> time=16.900, max(chi)=32, max(S)=2.97215, avg DeltaS=2.0257e-04, since last update: 0.0s
+--> time=17.000, max(chi)=32, max(S)=2.97295, avg DeltaS=2.5401e-04, since last update: 0.0s
+--> time=17.100, max(chi)=32, max(S)=2.97402, avg DeltaS=2.8712e-04, since last update: 0.0s
+--> time=17.200, max(chi)=32, max(S)=2.97520, avg DeltaS=3.0103e-04, since last update: 0.0s
+--> time=17.300, max(chi)=32, max(S)=2.97635, avg DeltaS=2.9923e-04, since last update: 0.0s
+--> time=17.400, max(chi)=32, max(S)=2.97740, avg DeltaS=2.8636e-04, since last update: 0.0s
+--> time=17.500, max(chi)=32, max(S)=2.97832, avg DeltaS=2.6698e-04, since last update: 0.0s
+--> time=17.600, max(chi)=32, max(S)=2.97909, avg DeltaS=2.4410e-04, since last update: 0.0s
+--> time=17.700, max(chi)=32, max(S)=2.97976, avg DeltaS=2.1767e-04, since last update: 0.0s
+--> time=17.800, max(chi)=32, max(S)=2.98032, avg DeltaS=1.8555e-04, since last update: 0.0s
+--> time=17.900, max(chi)=32, max(S)=2.98082, avg DeltaS=1.4575e-04, since last update: 0.0s
+--> time=18.000, max(chi)=32, max(S)=2.98125, avg DeltaS=9.6311e-05, since last update: 0.0s
+--> time=18.100, max(chi)=32, max(S)=2.98161, avg DeltaS=3.6862e-05, since last update: 0.0s
+--> time=18.200, max(chi)=32, max(S)=2.98190, avg DeltaS=-2.9594e-05, since last update: 0.0s
+--> time=18.300, max(chi)=32, max(S)=2.98214, avg DeltaS=-9.7876e-05, since last update: 0.0s
+--> time=18.400, max(chi)=32, max(S)=2.98235, avg DeltaS=-1.6264e-04, since last update: 0.0s
+--> time=18.500, max(chi)=32, max(S)=2.98253, avg DeltaS=-2.1939e-04, since last update: 0.0s
+--> time=18.600, max(chi)=32, max(S)=2.98269, avg DeltaS=-2.6478e-04, since last update: 0.0s
+--> time=18.700, max(chi)=32, max(S)=2.98282, avg DeltaS=-2.9647e-04, since last update: 0.0s
+--> time=18.800, max(chi)=32, max(S)=2.98290, avg DeltaS=-3.1246e-04, since last update: 0.0s
+--> time=18.900, max(chi)=32, max(S)=2.98292, avg DeltaS=-3.1078e-04, since last update: 0.0s
+--> time=19.000, max(chi)=32, max(S)=2.98292, avg DeltaS=-2.8986e-04, since last update: 0.0s
+--> time=19.100, max(chi)=32, max(S)=2.98294, avg DeltaS=-2.4919e-04, since last update: 0.0s
+--> time=19.200, max(chi)=32, max(S)=2.98304, avg DeltaS=-1.8971e-04, since last update: 0.0s
+--> time=19.300, max(chi)=32, max(S)=2.98330, avg DeltaS=-1.1411e-04, since last update: 0.0s
+--> time=19.400, max(chi)=32, max(S)=2.98377, avg DeltaS=-2.8272e-05, since last update: 0.0s
+--> time=19.500, max(chi)=32, max(S)=2.98445, avg DeltaS=5.8918e-05, since last update: 0.0s
+--> time=19.600, max(chi)=32, max(S)=2.98528, avg DeltaS=1.3773e-04, since last update: 0.0s
+--> time=19.700, max(chi)=32, max(S)=2.98615, avg DeltaS=1.9985e-04, since last update: 0.0s
+--> time=19.800, max(chi)=32, max(S)=2.98693, avg DeltaS=2.3996e-04, since last update: 0.0s
+--> time=19.900, max(chi)=32, max(S)=2.98749, avg DeltaS=2.5626e-04, since last update: 0.0s
+--> time=20.000, max(chi)=32, max(S)=2.98771, avg DeltaS=2.4990e-04, since last update: 0.0s
