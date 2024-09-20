@@ -1,0 +1,3 @@
+Namespace(L=10, Jxy=-0.1, Jz=-0.5, hz=0.7, bc='open', bc_MPS='finite', dt=0.1, order=4, chi_max=100, svd_max=1e-12, evol_time=20.0, conserve='None', saving_dir='results/20240913_175349', logger=None, bloch_angles=(1.5707963267948966, 0.0), log_dir_path='results/20240913_175349/log_dir', data_dir_path='results/20240913_175349/data_dir', img_dir_path='results/20240913_175349/img_dir') 
+
+

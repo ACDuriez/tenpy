@@ -45,8 +45,7 @@ class XXZChain(CouplingModel,MPOModel):
         # generate MPO for DMRG
         MPOModel.__init__(self, lattice, self.calc_H_MPO())
 
-        max_workers = 1
-L = 10; Jxy = -0.1; Jz = -0.5; hz = 0.7
+L = 4; Jxy = -0.1; Jz = -0.5; hz = 0.7
 bc = 'open'
 bc_MPS = 'finite'
 
@@ -61,7 +60,8 @@ model_params = dict(bc=bc,
 model = XXZChain(model_params)
 sites = model.lat.mps_sites()
 theta, phi = np.pi/2, np.pi/2
-bloch_sphere_state = np.array([np.cos(theta/2),np.sin(theta/2)])
+bloch_sphere_state =(np.cos(theta/2),np.sin(theta/2))
+# bloch_sphere_state = np.array([np.cos(theta/2),np.sin(theta/2)])
 psi = MPS.from_product_state(sites, [bloch_sphere_state] * L, bc_MPS) 
 
 tebd_params = {
@@ -79,7 +79,7 @@ cnot_gate = np.array([[1, 0, 0, 0],
 # clifford = npc.Array.from_ndarray(cnot_gate,labels=['(p0.p1)', '(p0*.p1*)'],legcharges=[truth.get_leg(0).to_LegCharge(),truth.get_leg(1).to_LegCharge()])
 
 # eng = tebd.TEBDEngine(psi, model, tebd_params)
-eng = tebd.TEBDEngine(psi, model, tebd_params,clifford=cnot_gate,clifford_step=50)
+eng = tebd.TEBDEngine(psi, model, tebd_params,clifford=None,clifford_step=10)
 
 def measurement(eng, data):
     keys = ['t', 'Sx', 'Sy', 'Sz', 'trunc_err','entropy']
